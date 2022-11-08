@@ -9,7 +9,9 @@ let animals = [
   ];
   
 let bListAnimals = animals.filter((animal) => {
-  animals.pop
+if (animal[0] === "b") {
+  return animal
+}
 })
 
 console.log(bListAnimals);
